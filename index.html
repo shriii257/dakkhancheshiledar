@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>दख्खनचे शिलेदार प्रतिष्ठान | Dakkhanche Shiledar Pratishthaan</title>
+<meta name="description" content="दख्खनचे शिलेदार प्रतिष्ठान — महाराष्ट्राच्या गड-किल्ल्यांचा इतिहास, संवर्धन आणि दुर्गभ्रमंतीसाठी काम करणारी नवी सुरुवात.">
+<link rel="icon" href="assets/images/logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yatra+One&family=Mukta:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar" id="navbar">
+  <div class="navbar__inner">
+    <a href="#top" class="brand">
+      <img src="assets/images/logo.jpg" alt="दख्खनचे शिलेदार प्रतिष्ठान" class="brand__logo">
+      <span class="brand__text">
+        <span class="brand__name" data-mr="दख्खनचे शिलेदार" data-en="Dakkhanche Shiledar">दख्खनचे शिलेदार</span>
+        <span class="brand__tag" data-mr="गड • इतिहास • संवर्धन • दुर्गभ्रमंती" data-en="Forts • History • Conservation • Trekking">गड • इतिहास • संवर्धन • दुर्गभ्रमंती</span>
+      </span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#top" data-mr="मुख्यपृष्ठ" data-en="Home">मुख्यपृष्ठ</a>
+      <a href="#who-we-are" data-mr="आमच्याबद्दल" data-en="About">आमच्याबद्दल</a>
+      <a href="#what-we-do" data-mr="आमचे उपक्रम" data-en="Our Work">आमचे उपक्रम</a>
+      <a href="#treks" data-mr="दुर्गभ्रमंती" data-en="Treks">दुर्गभ्रमंती</a>
+      <a href="#gallery" data-mr="गॅलरी" data-en="Gallery">गॅलरी</a>
+      <a href="#contact" data-mr="संपर्क" data-en="Contact">संपर्क</a>
+      <button class="lang-switch" id="langSwitch" aria-label="Switch language">
+        <span class="lang-opt is-active" data-lang="mr">मराठी</span>
+        <span class="lang-sep">|</span>
+        <span class="lang-opt" data-lang="en">English</span>
+      </button>
+    </nav>
+
+    <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="top">
+  <div class="hero__art" aria-hidden="true">
+    <svg class="hero__mountains" viewBox="0 0 1440 500" preserveAspectRatio="none">
+      <path d="M0,420 L140,300 L230,360 L360,230 L470,320 L560,180 L640,300 L760,140 L860,290 L980,220 L1080,340 L1200,250 L1320,360 L1440,300 L1440,500 L0,500 Z" fill="#1c150f"/>
+      <path d="M0,460 L120,380 L260,430 L400,340 L540,420 L680,320 L820,410 L960,350 L1100,430 L1260,370 L1440,440 L1440,500 L0,500 Z" fill="#120e0a"/>
+    </svg>
+    <svg class="hero__fort" viewBox="0 0 1440 160" preserveAspectRatio="none">
+      <path d="M0,160 L0,120 L40,120 L40,95 L60,95 L60,120 L100,120 L100,80 L120,80 L120,60 L140,60 L140,80 L160,80 L160,120 L210,120 L210,90 L230,90 L230,120 L300,120 L300,70 L320,70 L320,50 L340,50 L340,70 L360,70 L360,120 L430,120 L430,100 L450,100 L450,120 L520,120 L520,65 L540,65 L540,40 L560,40 L560,65 L580,65 L580,120 L650,120 L650,95 L670,95 L670,120 L740,120 L740,75 L760,75 L760,55 L780,55 L780,75 L800,75 L800,120 L870,120 L870,90 L890,90 L890,120 L960,120 L960,60 L980,60 L980,40 L1000,40 L1000,60 L1020,60 L1020,120 L1090,120 L1090,100 L1110,100 L1110,120 L1180,120 L1180,70 L1200,70 L1200,50 L1220,50 L1220,70 L1240,70 L1240,120 L1310,120 L1310,95 L1330,95 L1330,120 L1400,120 L1400,80 L1420,80 L1420,120 L1440,120 L1440,160 Z" fill="#0b0806"/>
+    </svg>
+  </div>
+
+  <div class="hero__glow" aria-hidden="true"></div>
+
+  <div class="hero__content">
+    <p class="hero__jay" data-mr="जय भवानी • जय शिवाजी" data-en="Jai Bhavani • Jai Shivaji">जय भवानी • जय शिवाजी</p>
+    <h1 class="hero__title" data-mr="गड जपूया.<br>इतिहास जगूया.<br>वारसा पुढे नेऊया." data-en="Preserve the forts.<br>Live the history.<br>Carry the legacy forward.">गड जपूया.<br>इतिहास जगूया.<br>वारसा पुढे नेऊया.</h1>
+    <p class="hero__subtext" data-mr="महाराष्ट्राच्या गड-किल्ल्यांशी नातं जोडणाऱ्या एका नव्या प्रवासाची सुरुवात." data-en="Beginning a new journey to reconnect with Maharashtra's forts and heritage.">महाराष्ट्राच्या गड-किल्ल्यांशी नातं जोडणाऱ्या एका नव्या प्रवासाची सुरुवात.</p>
+
+    <div class="hero__ctas">
+      <button class="btn btn--primary" id="joinBtn" data-mr="आमच्यासोबत या" data-en="Join Us">आमच्यासोबत या</button>
+      <a href="#treks" class="btn btn--ghost" data-mr="आगामी दुर्गभ्रमंती" data-en="Upcoming Treks">आगामी दुर्गभ्रमंती</a>
+    </div>
+  </div>
+
+  <a href="#new-beginning" class="scroll-cue" aria-label="Scroll down">
+    <span></span>
+  </a>
+</section>
+
+<!-- ================= NEW BEGINNING ================= -->
+<section class="section beginning" id="new-beginning">
+  <div class="beginning__art" aria-hidden="true">
+    <svg viewBox="0 0 400 400" width="100%" height="100%">
+      <circle cx="200" cy="200" r="150" fill="none" stroke="#B4915A" stroke-width="1" opacity="0.35"/>
+      <circle cx="200" cy="200" r="110" fill="none" stroke="#B4915A" stroke-width="1" opacity="0.2"/>
+      <path d="M120,260 L150,200 L165,220 L190,150 L210,190 L235,140 L255,200 L280,260 Z" fill="#0f0b08" stroke="#E1650C" stroke-width="1.5" opacity="0.9"/>
+    </svg>
+  </div>
+  <div class="section__inner beginning__grid">
+    <div>
+      <p class="eyebrow" data-mr="नवीन सुरुवात" data-en="New Beginning">नवीन सुरुवात</p>
+      <h2 data-mr="ही फक्त सुरुवात आहे..." data-en="This is only the beginning...">ही फक्त सुरुवात आहे...</h2>
+      <p class="lead" data-mr="महाराष्ट्राच्या मातीत उभ्या असलेल्या प्रत्येक गडाची एक कहाणी आहे. ती जाणून घेण्यासाठी, जपण्यासाठी आणि पुढच्या पिढीपर्यंत पोहोचवण्यासाठी दख्खनचे शिलेदार प्रतिष्ठान एका नव्या प्रवासाला सुरुवात करत आहे." data-en="Every fort standing in Maharashtra carries a story. Dakkhanche Shiledar Pratishthaan is beginning a new journey to discover, preserve and carry those stories to the next generation.">महाराष्ट्राच्या मातीत उभ्या असलेल्या प्रत्येक गडाची एक कहाणी आहे. ती जाणून घेण्यासाठी, जपण्यासाठी आणि पुढच्या पिढीपर्यंत पोहोचवण्यासाठी दख्खनचे शिलेदार प्रतिष्ठान एका नव्या प्रवासाला सुरुवात करत आहे.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WHO WE ARE ================= -->
+<section class="section who" id="who-we-are">
+  <div class="section__inner who__grid">
+    <div class="who__text">
+      <h2 data-mr="आम्ही कोण?" data-en="Who We Are">आम्ही कोण?</h2>
+      <p class="lead" data-mr="दख्खनचे शिलेदार प्रतिष्ठान हे महाराष्ट्रातील गड-किल्ल्यांचा इतिहास, संवर्धन आणि दुर्गभ्रमंती यांना समर्पित एक नव्याने सुरू झालेलं व्यासपीठ आहे." data-en="Dakkhanche Shiledar Pratishthaan is a newly started platform dedicated to the history, conservation and exploration of Maharashtra's forts.">दख्खनचे शिलेदार प्रतिष्ठान हे महाराष्ट्रातील गड-किल्ल्यांचा इतिहास, संवर्धन आणि दुर्गभ्रमंती यांना समर्पित एक नव्याने सुरू झालेलं व्यासपीठ आहे.</p>
+      <span class="badge" data-mr="नवीन सुरुवात • New Beginning" data-en="New Beginning">नवीन सुरुवात • New Beginning</span>
+    </div>
+    <div class="who__quote">
+      <p data-mr="।। यः गडं रक्षति, सः दख्खनस्य शिलेदारः ।।" data-en="Whoever protects the fort, is the Shiledar of the Dakkhan.">।। यः गडं रक्षति, सः दख्खनस्य शिलेदारः ।।</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WHAT WE DO ================= -->
+<section class="section work" id="what-we-do">
+  <div class="section__inner">
+    <p class="eyebrow" data-mr="आमचे उपक्रम" data-en="What We Do">आमचे उपक्रम</p>
+    <h2 data-mr="आम्ही काय करतो" data-en="What we do">आम्ही काय करतो</h2>
+
+    <div class="cards">
+      <div class="card">
+        <span class="card__icon">
+          <svg viewBox="0 0 48 48"><path d="M6 38 L18 14 L24 24 L30 10 L42 38 Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/></svg>
+        </span>
+        <h3 data-mr="गडभ्रमंती" data-en="Fort Treks">गडभ्रमंती</h3>
+        <p data-mr="गड-किल्ले प्रत्यक्ष अनुभवणे आणि त्यांचा इतिहास जाणून घेणे." data-en="Experiencing forts firsthand and learning their history.">गड-किल्ले प्रत्यक्ष अनुभवणे आणि त्यांचा इतिहास जाणून घेणे.</p>
+      </div>
+
+      <div class="card">
+        <span class="card__icon">
+          <svg viewBox="0 0 48 48"><path d="M14 8 L34 28 M28 10 L10 28 Q6 32 10 36 Q14 40 18 36 L36 18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+        </span>
+        <h3 data-mr="गड स्वच्छता" data-en="Fort Clean-ups">गड स्वच्छता</h3>
+        <p data-mr="गडांच्या परिसरात स्वच्छता आणि जबाबदार पर्यटनासाठी प्रयत्न." data-en="Working towards clean forts and responsible tourism.">गडांच्या परिसरात स्वच्छता आणि जबाबदार पर्यटनासाठी प्रयत्न.</p>
+      </div>
+
+      <div class="card">
+        <span class="card__icon">
+          <svg viewBox="0 0 48 48"><path d="M10 8 H32 V36 L24 30 L16 36 V8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><line x1="16" y1="16" x2="26" y2="16" stroke="currentColor" stroke-width="2"/><line x1="16" y1="22" x2="26" y2="22" stroke="currentColor" stroke-width="2"/></svg>
+        </span>
+        <h3 data-mr="इतिहास" data-en="History">इतिहास</h3>
+        <p data-mr="गडांचा इतिहास, माहिती आणि स्थानिक वारसा जाणून घेणे व नोंदवणे." data-en="Learning and documenting fort history and local heritage.">गडांचा इतिहास, माहिती आणि स्थानिक वारसा जाणून घेणे व नोंदवणे.</p>
+      </div>
+
+      <div class="card">
+        <span class="card__icon">
+          <svg viewBox="0 0 48 48"><path d="M24 6 L24 32 M14 14 L34 14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path d="M14 14 Q10 24 18 28 M34 14 Q38 24 30 28" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><line x1="16" y1="40" x2="32" y2="40" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+        </span>
+        <h3 data-mr="दुर्गसंवर्धन" data-en="Fort Conservation">दुर्गसंवर्धन</h3>
+        <p data-mr="महाराष्ट्राच्या ऐतिहासिक वारशाबद्दल जागरूकता निर्माण करणे." data-en="Creating awareness about Maharashtra's historical heritage.">महाराष्ट्राच्या ऐतिहासिक वारशाबद्दल जागरूकता निर्माण करणे.</p>
+      </div>
+
+      <div class="card">
+        <span class="card__icon">
+          <svg viewBox="0 0 48 48"><circle cx="16" cy="16" r="6" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="32" cy="16" r="6" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M6 40 Q6 28 16 28 Q22 28 24 33 Q26 28 32 28 Q42 28 42 40" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+        </span>
+        <h3 data-mr="युवक सहभाग" data-en="Youth Participation">युवक सहभाग</h3>
+        <p data-mr="इतिहास आणि वारशाशी तरुण पिढीला जोडणे." data-en="Connecting the younger generation with history and heritage.">इतिहास आणि वारशाशी तरुण पिढीला जोडणे.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= VISION ================= -->
+<section class="section vision">
+  <div class="vision__art" aria-hidden="true">
+    <svg viewBox="0 0 1440 300" preserveAspectRatio="none">
+      <path d="M0,260 L180,140 L320,210 L480,100 L620,190 L760,80 L900,200 L1040,130 L1180,220 L1320,150 L1440,210 L1440,300 L0,300 Z" fill="#191209"/>
+    </svg>
+  </div>
+  <div class="section__inner">
+    <p class="eyebrow eyebrow--light" data-mr="आमचं स्वप्न" data-en="Our Vision">आमचं स्वप्न</p>
+    <h2 class="vision__title" data-mr="गड फक्त पाहण्याची ठिकाणं नाहीत, ती जपण्याची प्रेरणा आहेत." data-en="Forts are not just places to see — they are a reason to preserve.">गड फक्त पाहण्याची ठिकाणं नाहीत, ती जपण्याची प्रेरणा आहेत.</p>
+    <p class="vision__text" data-mr="महाराष्ट्रातील गड-किल्ले केवळ पाहण्याची ठिकाणं न राहता, त्यांचा इतिहास समजून घेण्याची, जपण्याची आणि पुढे नेण्याची प्रेरणा बनावीत." data-en="Our vision is to make Maharashtra's forts more than destinations — places where people discover history, understand heritage and feel inspired to preserve it.">महाराष्ट्रातील गड-किल्ले केवळ पाहण्याची ठिकाणं न राहता, त्यांचा इतिहास समजून घेण्याची, जपण्याची आणि पुढे नेण्याची प्रेरणा बनावीत.</p>
+  </div>
+</section>
+
+<!-- ================= UPCOMING TREKS ================= -->
+<section class="section treks" id="treks">
+  <div class="section__inner">
+    <p class="eyebrow" data-mr="दुर्गभ्रमंती" data-en="Treks">दुर्गभ्रमंती</p>
+    <h2 data-mr="आगामी दुर्गभ्रमंती" data-en="Upcoming Treks">आगामी दुर्गभ्रमंती</h2>
+
+    <div class="trek-cards">
+      <div class="trek-card">
+        <div class="trek-card__top">
+          <h3 data-mr="राजगड दुर्गभ्रमंती" data-en="Rajgad Trek">राजगड दुर्गभ्रमंती</h3>
+          <span class="trek-card__place" data-mr="राजगड • पुणे" data-en="Rajgad • Pune">राजगड • पुणे</span>
+        </div>
+        <ul class="trek-card__meta">
+          <li><span data-mr="तारीख" data-en="Date">तारीख</span>: <span data-mr="लवकरच जाहीर" data-en="To be announced">लवकरच जाहीर</span></li>
+          <li><span data-mr="कठीणता" data-en="Difficulty">कठीणता</span>: <span data-mr="मध्यम" data-en="Moderate">मध्यम</span></li>
+        </ul>
+        <p data-mr="स्वराज्याच्या राजधानीचा इतिहास जवळून अनुभवणारी एक संस्मरणीय भ्रमंती." data-en="A memorable trek to experience the history of Swarajya's first capital up close.">स्वराज्याच्या राजधानीचा इतिहास जवळून अनुभवणारी एक संस्मरणीय भ्रमंती.</p>
+        <button class="btn btn--primary btn--small trek-register" data-mr="ट्रेकसाठी नोंदणी करा" data-en="Register for Trek">ट्रेकसाठी नोंदणी करा</button>
+      </div>
+
+      <div class="trek-card">
+        <div class="trek-card__top">
+          <h3 data-mr="तोरणा दुर्गभ्रमंती" data-en="Torna Trek">तोरणा दुर्गभ्रमंती</h3>
+          <span class="trek-card__place" data-mr="तोरणा • पुणे" data-en="Torna • Pune">तोरणा • पुणे</span>
+        </div>
+        <ul class="trek-card__meta">
+          <li><span data-mr="तारीख" data-en="Date">तारीख</span>: <span data-mr="लवकरच जाहीर" data-en="To be announced">लवकरच जाहीर</span></li>
+          <li><span data-mr="कठीणता" data-en="Difficulty">कठीणता</span>: <span data-mr="कठीण" data-en="Challenging">कठीण</span></li>
+        </ul>
+        <p data-mr="शिवरायांनी जिंकलेला पहिला किल्ला — एक आव्हानात्मक आणि प्रेरणादायी चढाई." data-en="The first fort won by Shivaji Maharaj — a challenging and inspiring climb.">शिवरायांनी जिंकलेला पहिला किल्ला — एक आव्हानात्मक आणि प्रेरणादायी चढाई.</p>
+        <button class="btn btn--primary btn--small trek-register" data-mr="ट्रेकसाठी नोंदणी करा" data-en="Register for Trek">ट्रेकसाठी नोंदणी करा</button>
+      </div>
+
+      <div class="trek-card trek-card--empty">
+        <div class="trek-card__empty-icon">
+          <svg viewBox="0 0 48 48"><path d="M8 40 L18 18 L24 26 L30 12 L40 40 Z" fill="none" stroke="currentColor" stroke-width="2" opacity="0.6"/></svg>
+        </div>
+        <p data-mr="लवकरच पहिली दुर्गभ्रमंती जाहीर केली जाईल." data-en="Our first trek will be announced soon.">लवकरच पहिली दुर्गभ्रमंती जाहीर केली जाईल.</p>
+      </div>
+    </div>
+
+    <p class="treks__note" data-mr="ट्रेकसाठी नोंदणी Google Form द्वारे केली जाईल." data-en="Trek registrations will be completed through Google Forms.">ट्रेकसाठी नोंदणी Google Form द्वारे केली जाईल.</p>
+  </div>
+</section>
+
+<!-- ================= HOW WE TREK ================= -->
+<section class="section how">
+  <div class="section__inner">
+    <p class="eyebrow" data-mr="कार्यपद्धती" data-en="Our Process">कार्यपद्धती</p>
+    <h2 data-mr="आम्ही गड कसा अनुभवतो" data-en="How we trek">आम्ही गड कसा अनुभवतो</h2>
+
+    <div class="steps">
+      <div class="step">
+        <span class="step__num">01</span>
+        <h3 data-mr="नियोजन" data-en="Plan">नियोजन</h3>
+        <p data-mr="गडाची निवड आणि भ्रमंतीचे नियोजन करणे." data-en="Choosing the fort and planning the trek.">गडाची निवड आणि भ्रमंतीचे नियोजन करणे.</p>
+      </div>
+      <div class="step">
+        <span class="step__num">02</span>
+        <h3 data-mr="दुर्गभ्रमंती" data-en="Trek">दुर्गभ्रमंती</h3>
+        <p data-mr="गडावर चढाई करून तो प्रत्यक्ष अनुभवणे." data-en="Trekking up the fort and experiencing it firsthand.">गडावर चढाई करून तो प्रत्यक्ष अनुभवणे.</p>
+      </div>
+      <div class="step">
+        <span class="step__num">03</span>
+        <h3 data-mr="स्वच्छता" data-en="Clean">स्वच्छता</h3>
+        <p data-mr="गड आणि परिसराची स्वच्छता व निगा राखणे." data-en="Cleaning and caring for the fort and its surroundings.">गड आणि परिसराची स्वच्छता व निगा राखणे.</p>
+      </div>
+      <div class="step">
+        <span class="step__num">04</span>
+        <h3 data-mr="इतिहास" data-en="Share">इतिहास</h3>
+        <p data-mr="गडाचा इतिहास जाणून घेऊन तो इतरांपर्यंत पोहोचवणे." data-en="Learning the fort's history and sharing it with others.">गडाचा इतिहास जाणून घेऊन तो इतरांपर्यंत पोहोचवणे.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= GALLERY ================= -->
+<section class="section gallery" id="gallery">
+  <div class="section__inner">
+    <p class="eyebrow" data-mr="गॅलरी" data-en="Gallery">गॅलरी</p>
+    <h2 data-mr="आमचा प्रवास इथून सुरू होतो..." data-en="Our journey begins here...">आमचा प्रवास इथून सुरू होतो...</h2>
+
+    <div class="gallery__grid">
+      <div class="gallery__item gallery__item--tall">
+        <svg viewBox="0 0 48 48"><path d="M4 40 L16 16 L22 26 L28 10 L44 40 Z" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+        <span data-mr="गड-किल्ले" data-en="Forts">गड-किल्ले</span>
+      </div>
+      <div class="gallery__item">
+        <svg viewBox="0 0 48 48"><path d="M4 36 Q16 12 24 30 Q32 12 44 36" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+        <span data-mr="सह्याद्री" data-en="Sahyadri">सह्याद्री</span>
+      </div>
+      <div class="gallery__item">
+        <svg viewBox="0 0 48 48"><path d="M6 38 L20 20 L28 30 L42 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <span data-mr="दुर्गभ्रमंती" data-en="Trekking">दुर्गभ्रमंती</span>
+      </div>
+      <div class="gallery__item">
+        <svg viewBox="0 0 48 48"><rect x="14" y="10" width="20" height="28" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M14 22 H34" stroke="currentColor" stroke-width="1.6"/></svg>
+        <span data-mr="गडप्रवेशद्वार" data-en="Fort Entrance">गडप्रवेशद्वार</span>
+      </div>
+      <div class="gallery__item">
+        <svg viewBox="0 0 48 48"><circle cx="16" cy="18" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="32" cy="18" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M8 38 Q8 28 16 28 Q22 28 24 33 Q26 28 32 28 Q40 28 40 38" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+        <span data-mr="सहभाग" data-en="Team">सहभाग</span>
+      </div>
+      <div class="gallery__item gallery__item--tall">
+        <svg viewBox="0 0 48 48"><path d="M12 10 L36 10 M14 10 L14 34 Q14 40 20 40 L28 40 Q34 40 34 34 L34 10" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+        <span data-mr="स्वच्छता मोहीम" data-en="Clean-up Drive">स्वच्छता मोहीम</span>
+      </div>
+    </div>
+    <p class="gallery__note" data-mr="प्रत्यक्ष छायाचित्रे लवकरच जोडली जातील." data-en="Real photographs will be added soon.">प्रत्यक्ष छायाचित्रे लवकरच जोडली जातील.</p>
+  </div>
+</section>
+
+<!-- ================= JOIN CTA ================= -->
+<section class="section join">
+  <div class="join__art" aria-hidden="true">
+    <svg viewBox="0 0 1440 200" preserveAspectRatio="none">
+      <path d="M0,160 L200,60 L380,120 L560,40 L740,110 L920,50 L1100,120 L1280,70 L1440,110 L1440,200 L0,200 Z" fill="#0e0a07"/>
+    </svg>
+  </div>
+  <div class="section__inner join__inner">
+    <h2 data-mr="तुम्हीही या प्रवासाचा भाग व्हा." data-en="Be a part of the journey.">तुम्हीही या प्रवासाचा भाग व्हा.</h2>
+    <p data-mr="गड तुमची वाट पाहत आहेत." data-en="The forts are waiting for you.">गड तुमची वाट पाहत आहेत.</p>
+    <div class="join__ctas">
+      <button class="btn btn--primary trek-register" data-mr="दुर्गभ्रमंतीसाठी नोंदणी" data-en="Register for a Trek">दुर्गभ्रमंतीसाठी नोंदणी</button>
+      <a href="https://www.instagram.com/dakkhancheshiledar" target="_blank" rel="noopener" class="btn btn--ghost" data-mr="आम्हाला फॉलो करा" data-en="Follow Us">आम्हाला फॉलो करा</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="section contact" id="contact">
+  <div class="section__inner contact__grid">
+    <div>
+      <p class="eyebrow" data-mr="संपर्क" data-en="Contact">संपर्क</p>
+      <h2 data-mr="आमच्याशी संपर्क साधा" data-en="Get in Touch">आमच्याशी संपर्क साधा</h2>
+      <p class="lead" data-mr="संस्था नवीन असल्यामुळे सध्या आम्ही मुख्यतः सोशल मीडियावर सक्रिय आहोत." data-en="As we are a newly formed organisation, we are currently most active on social media.">संस्था नवीन असल्यामुळे सध्या आम्ही मुख्यतः सोशल मीडियावर सक्रिय आहोत.</p>
+    </div>
+    <div class="contact__cards">
+      <a href="https://www.instagram.com/dakkhancheshiledar" target="_blank" rel="noopener" class="contact__card">
+        <span data-mr="इन्स्टाग्राम" data-en="Instagram">इन्स्टाग्राम</span>
+        <strong>@dakkhancheshiledar</strong>
+      </a>
+      <div class="contact__card">
+        <span data-mr="ईमेल" data-en="Email">ईमेल</span>
+        <strong>info@dakkhancheshiledar.org</strong>
+      </div>
+      <div class="contact__card">
+        <span data-mr="संपर्क क्रमांक" data-en="Phone">संपर्क क्रमांक</span>
+        <strong>+919890100989</strong>
+      </div>
+      <div class="contact__card">
+        <span data-mr="ठिकाण" data-en="Location">ठिकाण</span>
+        <strong data-mr="महाराष्ट्र, भारत" data-en="Maharashtra, India">महाराष्ट्र, भारत</strong>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="section__inner footer__grid">
+    <div class="footer__brand">
+      <img src="assets/images/logo.jpg" alt="दख्खनचे शिलेदार प्रतिष्ठान" class="footer__logo">
+      <div>
+        <p class="footer__name">दख्खनचे शिलेदार प्रतिष्ठान</p>
+        <p class="footer__tag" data-mr="गड • इतिहास • संवर्धन • दुर्गभ्रमंती" data-en="Forts • History • Conservation • Trekking">गड • इतिहास • संवर्धन • दुर्गभ्रमंती</p>
+      </div>
+    </div>
+
+    <p class="footer__line" data-mr="महाराष्ट्राच्या गड-किल्ल्यांसाठी एका नव्या प्रवासाची सुरुवात." data-en="A new journey dedicated to Maharashtra's forts and heritage.">महाराष्ट्राच्या गड-किल्ल्यांसाठी एका नव्या प्रवासाची सुरुवात.</p>
+
+    <div class="footer__social">
+      <a href="https://www.instagram.com/dakkhancheshiledar" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor"/></svg>
+      </a>
+      <a href="#" target="_blank" rel="noopener" aria-label="Facebook">
+        <svg viewBox="0 0 24 24"><path d="M14 9 H17 V6 H14 Q11 6 11 9 V12 H8 V15 H11 V21 H14 V15 H17 L18 12 H14 Z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+      </a>
+      <a href="#" target="_blank" rel="noopener" aria-label="YouTube">
+        <svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10 9.5 L15 12 L10 14.5 Z" fill="currentColor"/></svg>
+      </a>
+    </div>
+
+    <p class="footer__copy">© <span id="year">2026</span> दख्खनचे शिलेदार प्रतिष्ठान — <span data-mr="सर्व हक्क राखीव." data-en="All rights reserved.">सर्व हक्क राखीव.</span></p>
+    <p class="footer__credit">
+      <span data-mr="वेबसाईट निर्मिती" data-en="Website built by">वेबसाईट निर्मिती</span>
+      <a href="https://www.instagram.com/shrii._.b" target="_blank" rel="noopener">@shrii._.b</a>
+    </p>
+  </div>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>

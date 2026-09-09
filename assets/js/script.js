@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     document.title = lang === "en"
       ? "Dakkhanche Shiledar Pratishthaan | Maharashtra Fort Heritage"
-      : "दख्खनचे शिलेदार प्रतिष्ठान | गड-किल्ले, इतिहास, संवर्धन";
+      : "दख्खनचे शिलेदार प्रतिष्ठान | दुर्ग-किल्ले, इतिहास, संवर्धन";
   }
   langSwitch.addEventListener("click", () => {
     applyLanguage(currentLang === "mr" ? "en" : "mr");

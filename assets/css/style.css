@@ -418,7 +418,11 @@ h1, h2, h3{
    TREKS
    ========================================================= */
 .treks{ background: var(--black-2); }
-.treks h2{ font-size: clamp(1.8rem, 3.4vw, 2.6rem); margin-bottom: 46px; }
+.treks h2{ font-size: clamp(1.8rem, 3.4vw, 2.6rem); margin-bottom: 26px; }
+.treks .eyebrow + h2,
+.treks h2 + .lead{ margin-bottom: 26px; }
+.treks h2{ margin-bottom: 20px; }
+.treks .lead{ margin-bottom: 46px; }
 
 .trek-cards{
   display: grid;
@@ -456,6 +460,48 @@ h1, h2, h3{
   margin-top: 30px;
   font-size: 0.88rem;
   color: var(--cream-dim2);
+}
+
+/* ---------- Completed treks / मोहीम grid ---------- */
+.trek-cards--done{
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  margin-bottom: 0;
+}
+.trek-card--done{ gap: 4px; }
+.trek-card--done:hover{ border-color: rgba(180,145,90,0.6); }
+
+.mohim-badge{
+  display: inline-flex;
+  align-self: flex-start;
+  align-items: center;
+  margin: 2px 0 12px;
+  padding: 4px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--saffron);
+  color: var(--saffron-2);
+  font-size: 0.76rem;
+  font-weight: 600;
+}
+
+.trek-card__meta--done{ margin: 0; }
+.trek-card__meta--done li{
+  border-bottom: none;
+  padding: 3px 0;
+  font-size: 0.86rem;
+  color: var(--cream-dim);
+}
+
+/* ---------- Divider between completed and upcoming ---------- */
+.treks__divider{
+  height: 1px;
+  background: rgba(244,236,219,0.12);
+  margin: 56px 0 46px;
+}
+
+/* ---------- Single upcoming trek card ---------- */
+.trek-cards--single{
+  grid-template-columns: 1fr;
+  max-width: 420px;
 }
 
 /* =========================================================
